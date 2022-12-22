@@ -89,18 +89,25 @@ header > #sandalias {
 header > #logo {
     width: 30%;
 }
-header > p > #WhatsApp{
-    width: 50px;
-}
-header > #whats{
-    padding: 5px;
+#horario{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }
-
-
+#whatsapp{
+    text-align: justify;
+    text-decoration: none;
+    font-family: var(--fonte-padrão);
+    font-size: 0.8em;
+    color: var(--cor4);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.400); 
+}
+#LogoWhats{
+    width: 50px;
+    margin-bottom: 20px;
+    transform: translate(3px, 3px);
+}
 nav{ 
     height: 70px;
     background-image: linear-gradient(to right, var(--cor3), var(--cor1), var(--cor0) );
@@ -156,21 +163,35 @@ nav > div > a:active{
     color:red
 }
 main{
-    height: 60vh;
+    height: 100%;
     background: var(--cor0) url(../imagens/imagemFundo.jpg) center center no-repeat;    
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 20px;
+}
+#videos{
+    display:flex;
+}
+h2{
+    padding: 10px;
+    font-family: var(--fonte-padrão);
+    font-style: italic;
+    color: var(--cor4);
+}
+#destaques{
+    display:flex;
+
+}
+#destaques > div > img{
+    width: 150px;
 }
 iframe{
-    margin:  20px;
-    height: 400px;
+    display: none;   
 }
-#torricella{
-    display: none;
-    width: 300px;
-    height: 300px;
+#informaçoes{
+    display: flex;
+    text-align: start;
+    color: var(--cor4);
+    font-family: var(--fonte-padrão);
 }
 footer{
     text-align: center;

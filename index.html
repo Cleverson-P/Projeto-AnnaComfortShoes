@@ -18,7 +18,10 @@
         <img src="imagens/imagen cabeçalho.png" alt="imagem sandalias" id="sandalias">
         <img src="imagens/Logo branca.jpg" alt="logo" id = 'logo'>
         <img src="imagens/ espelhada cabeçalho.png"    alt="imagem sandalias" id = 'sandalias'>
-        <p id="whats"> <img src="imagens/Logo WhatsApp.png" alt="Logo WhatsApp" id = 'WhatsApp'>De seg à sexta  8:30h às 17:30h (41) 99679-4399</p>
+        <div id="horario">
+            <a href="https://web.whatsapp.com/" target="_blank" ><img src="imagens/Logo WhatsApp.png" alt="Logo WhatsApp" id = 'LogoWhats' ></a>
+            <a href="https://web.whatsapp.com/" target="_blank" id="whatsapp">De seg à sexta - 8:30h às 17:30h (41) 99679-4399</a>
+        </div>
     </header>
      <nav>
         <div id="Pesquisar">
@@ -26,19 +29,61 @@
             <p id="label"><label for="ipesquisa" id="pesquisar">Pesquisar</label></p>
         </div>
         <div id="paginas">
-            <a href="paginas/QuemSomos.html" target="_blank" id = 'quemSomos'>QUEM SOMOS</a>
-            <a href="paginas/Produtos.html" target="_blank" id="produtos">PRODUTOS</a>
-            <a href="paginas/Contato.html" target="_blank" id = 'contato'>CONTATO</a>
+            <a href="paginas/QuemSomos.html" target="_blank" rel="next" id = 'quemSomos'>QUEM SOMOS</a>
+            <a href="paginas/Produtos.html" target="_blank" rel="next" id="produtos">PRODUTOS</a>
+            <a href="paginas/Contato.html" target="_blank" rel="next" id = 'contato'>CONTATO</a>
         </div>
     </nav>
     <main>  
-        <video src="Videos/Storie 2.mp4" width="200px" height="300px" controls autoplay loop muted></video>
-        <video src="Videos/Storie 1.mp4" width="200px" height="300px" controls autoplay loop muted></video>
-        <div>
-            <iframe src="https://www.youtube.com/watch?v=awu2JRBzv4Q" frameborder="0" sandbox="sandbox" referrerpolicy="no-referrer" id="torricella"></iframe>
+        <article id="videos">
+            <video src="Videos/Storie 2.mp4" width="200px" height="300px" controls autoplay loop muted></video>
+            <video src="Videos/Storie 1.mp4" width="200px" height="300px" controls autoplay loop muted></video>
+        </article>
+        <div id="torricella">
+            <iframe src="https://www.youtube.com/shorts/ZBgDws0vAbQ" frameborder="0" sandbox="sandbox" referrerpolicy="no-referrer" ></iframe>
                 <!-- proteção contra coleta de dados do usuário e oferecimento de propagandas -->
         </div>
-    </main>        
+        <h2>DESTAQUES DA TEMPORADA</h2>
+        <article id="destaques">
+            <div>
+                <img src="imagens/201A.png" alt="sandalias">
+                <img src="imagens/209A.png" alt="sandalias">
+            </div>
+            <div>
+                <img src="imagens/209B.png" alt="sandalias">
+                <img src="imagens/209C.png" alt="sandalias">
+            </div>
+        </article>
+       
+    </main>      
+    <article id="informaçoes">
+        <div>
+            <ul>MINHA CONTA
+                <li>Acessar conta</li>
+                <li>Fazer meu Cadastro</li>
+                <li>Esqueceu a Senha?</li>
+            
+            </ul>
+            <ul>INSTITUCIONAL
+                <li><a href="paginas/QuemSomos.html">Quem Somos</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Política Anti-Spam</a></li>
+                <li><a href="#">Depoimentos</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>AJUDA
+                <li>Duvidas + frequentes</li>
+                <li>Formas de pagamento</li>
+                <li>Trocas e Devoluções</li>
+                <li>Como Comprar</li>
+            </ul>
+            <ul>ATENDIMENTO
+                <li>Fale conosco</li>
+            </ul>
+        </div>
+    </article>  
     <footer>
         <p>&copy;AnnaComfortShoes</p>
     </footer>
