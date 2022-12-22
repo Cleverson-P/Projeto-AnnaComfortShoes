@@ -156,8 +156,9 @@ nav > div > a:active{
     color:red
 }
 main{
-    height: 55vh;
-    background-image: url(../imagens/imagemFundo.jpg);
+    height: 60vh;
+    background: var(--cor0) url(../imagens/imagemFundo.jpg) center center no-repeat;    
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
