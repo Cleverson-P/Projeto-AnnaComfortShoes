@@ -161,8 +161,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:row;
-   
 }
 iframe{
     margin:  20px;
