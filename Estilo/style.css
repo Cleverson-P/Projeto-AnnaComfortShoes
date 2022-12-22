@@ -89,6 +89,10 @@ header > #sandalias {
 header > #logo {
     width: 30%;
 }
+header #WhatsApp{
+    width: 50px;
+    transform: translateX(50px);
+}
 nav{ 
     height: 70px;
     background-image: url(../imagens/imagemFundo.jpg);
