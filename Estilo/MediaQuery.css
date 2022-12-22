@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) /*CONFIGURAÇÃO PARA TABLET*/
+    
+
+
+
+
+
+
+
+@media screen and (min-width: 992px)  /*CONFIGURAÇÕES DESKTOP*/
+            /*CONFIGURAÇÕES PARA DESKTOP
+#logo:hover {
+    border-radius: 50%;
+    border: solid 2px rgba(140, 53, 53, 0.668);
+    transform: translate(-5px, -5px );
+    box-shadow: 5px 5px 10px var(--cor2);
+    transition: .3s border .5s;
+
+}*/
+nav{
+    /* background-image:linear-gradient(to left, var(--cor3), var(--cor1), transparent); */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:var(--fonte-padrão);
+    font-weight:bolder;    
+    padding: 0 15px;   
+}
+nav .pesquisa{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 1px var(--cor4);
+} */

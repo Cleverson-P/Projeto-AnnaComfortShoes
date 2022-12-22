@@ -1,0 +1,37 @@
+@charset  "UTF-8";
+
+:root{
+    --cor0: #f4b868;
+    --cor1: #F2AA6B;
+    --cor2: #D19562;
+    --cor3: #BF815E;
+    --cor4: #73341D;
+    --cor5: rgb(127, 246, 255);
+    --cor6: rgb(252, 109, 109);
+    --fonte-padrão:'Montserrat', Arial, Helvetica, sans-serif; color: var(--cor4);
+}  
+body {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor2),var(--cor1), var(--cor0));
+}
+img {
+    width: 50px;
+    height: 50px;
+
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#imsg {
+    width: 700px;
+    border: solid 1px black;
+    padding-top: 10px;
+}
+#msg {
+    font-size: large;
+}
+#foooterContato {
+    padding-top: 90px;
+}
