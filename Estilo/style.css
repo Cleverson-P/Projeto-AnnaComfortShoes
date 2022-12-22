@@ -27,7 +27,7 @@ body{
     background-repeat: repeat-y; */
 }
 header{
-    padding: 10px;
+    padding: 5px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -89,13 +89,21 @@ header > #sandalias {
 header > #logo {
     width: 30%;
 }
-header #WhatsApp{
+header > p > #WhatsApp{
     width: 50px;
-    transform: translateX(50px);
 }
+header > #whats{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
 nav{ 
     height: 70px;
-    background-image: url(../imagens/imagemFundo.jpg);
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1), var(--cor0) );
     font-family:var(--fonte-padrão);
     font-weight:bolder;
     font-size: 0.8em;    
@@ -148,8 +156,8 @@ nav > div > a:active{
     color:red
 }
 main{
-    height: 65vh;
-    background-image: linear-gradient(to top,  #D19562,#F2AA6B,#f4b868);
+    height: 55vh;
+    background-image: url(../imagens/imagemFundo.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
